@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Moira Nsovo Ngobeni</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #444;
+    }
+    header h1 {
+      color: #ff5722;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: #ff5722;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      background-color: transparent;
+      padding: 0.4rem 0.8rem;
+      border: 1px solid #ff5722;
+      border-radius: 6px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    nav a:hover {
+      background-color: #ff5722;
+      color: #000;
+    }
+    .container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4rem 2rem;
+    }
+    .contact-box {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 87, 34, 0.5);
+      max-width: 600px;
+      width: 100%;
+    }
+    .contact-box h2 {
+      color: #ff5722;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .contact-item {
+      margin-bottom: 1rem;
+    }
+    .contact-item label {
+      font-weight: bold;
+      color: #bbb;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    .contact-item a, .contact-item span {
+      color: #ffccbc;
+      text-decoration: none;
+    }
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+    .social-icons {
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+    .social-icons a {
+      color: #ff5722;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #fff;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.3rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ff5722;
+      border-radius: 6px;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+    textarea {
+      resize: vertical;
+    }
+    button {
+      background-color: #ff5722;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 6px;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #e64a19;
+    }
+    .thank-you {
+      text-align: center;
+      margin-top: 1.5rem;
+      color: #a5d6a7;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #ccc;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Moira Nsovo Ngobeni</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="contact-box">
+      <h2>Contact Me</h2>
+      <div class="contact-item">
+        <label>Email:</label>
+        <a href="mailto:ngobeni96@gmail.com">ngobeni96@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <label>Phone:</label>
+        <span>072 829 9644 / 073 786 2709</span>
+      </div>
+      <div class="contact-item">
+        <label>Location:</label>
+        <span>Gauteng, South Africa</span>
+      </div>
+      <div class="contact-item">
+        <label>GitHub:</label>
+        <a href="https://github.com/Ngobeni96" target="_blank">github.com/Ngobeni96</a>
+      </div>
+      <div class="contact-item">
+        <label>LinkedIn:</label>
+        <a href="https://www.linkedin.com/in/moira-ngobeni-6a063b98" target="_blank">linkedin.com/in/moira-ngobeni-6a063b98</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/Ngobeni96" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/moira-ngobeni-6a063b98" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <form action="#" method="post">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="thank-you">Thank you for reaching out! I'll get back to you soon.</div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Moira Nsovo Ngobeni. All rights reserved.
+  </footer>
+</body>
+</html>

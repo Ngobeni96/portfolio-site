@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me - Moira Nsovo Ngobeni</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('https://images.unsplash.com/photo-1605379399642-870262d3d051?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #f1f5f9;
+      padding: 40px 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    nav a {
+      background-color: rgba(0, 123, 255, 0.85);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 10px 18px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: rgba(0, 98, 204, 0.9);
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.65);
+      padding: 40px;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    }
+    h1 {
+      color: #60a5fa;
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #93c5fd;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    p, li {
+      font-size: 1.1rem;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    .btn-resume {
+      background-color: #2563eb;
+      color: white;
+      padding: 12px 28px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 15px;
+      transition: background-color 0.3s ease;
+    }
+    .btn-resume:hover {
+      background-color: #1e3a8a;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      .container { padding: 20px; }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="capstone.html">Capstone</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h1>About Me</h1>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        I'm Moira Nsovo Ngobeni,Data Science enthusiast. I am currently completing an internship with <strong>Capaciti</strong>, where I focus on applying machine learning, prompt engineering, and full-stack development in real-world use cases.
+      </p>
+      <p>
+        My career interests include natural language processing (NLP), ethical AI, and building intelligent tools for the recruitment and HR tech space. I enjoy turning ideas into working solutions that are intuitive, impactful, and grounded in strong technical foundations.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>
+        <strong>Diploma in Information Technology</strong>  
+        <br />Vaal University of Technology  
+        <br />Completed: 2021
+      </p>
+    </section>
+
+    <section>
+      <h2>Internship Experience</h2>
+      <p>
+        <strong>AI/IT Support Assosiate Intern</strong>  
+        <br />Capaciti, 2025  
+        <br />
+        During my internship, I have worked on:
+      </p>
+      <ul>
+        <li>Developing AI-powered resume generators using Google Gemini API</li>
+        <li>Building intelligent chatbot interfaces for recruitment</li>
+        <li>Integrating front-end and back-end systems using Node.js and Express.js</li>
+        <li>Creating web-based document export tools (PDF, DOCX) using html2pdf.js and Blob API</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>AI Integration & Prompt Engineering (Google Gemini, OpenAI APIs)</li>
+        <li>Full-Stack Development (HTML, CSS, JavaScript, Node.js, Express.js)</li>
+        <li>Natural Language Processing (NLP)</li>
+        <li>Document Automation (html2pdf.js, Blob API)</li>
+        <li>Version Control (Git, GitHub)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>My Resume</h2>
+      <p>You can download my latest resume below:</p>
+      <a class="btn-resume" href="resume.pdf" download>Download My Resume</a>
+    </section>
+
+  </div>
+
+</body>
+</html>

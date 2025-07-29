@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moira Nsovo Ngobeni | IT Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      color: #00ffff;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: transparent;
+      padding: 10px 15px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: rgba(0, 255, 255, 0.2);
+    }
+
+    .hero {
+      text-align: center;
+      padding: 6rem 2rem;
+      background-color: rgba(0, 0, 0, 0.7);
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    .hero img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #00ffff;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      margin: 10px;
+      padding: 12px 25px;
+      background-color: #00ffff;
+      color: #000000;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #00cccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.8);
+      margin-top: 3rem;
+      color: #aaa;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 { font-size: 2rem; }
+      .hero p { font-size: 1rem; }
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Moira Ngobeni</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="mailto:ngobeni96@gmail.com">Contact</a>
+      <a href="https://github.com/Ngobeni96" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/moira-ngobeni-6a063b98" target="_blank">LinkedIn</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="https://avatars.githubusercontent.com/u/141301233?v=4" alt="Moira Ngobeni">
+    <h2>Welcome, I'm Moira Nsovo Ngobeni</h2>
+    <p>IT Support Associate Intern | Diploma in IT | Passionate about AI & Tech Innovation</p>
+    <div class="buttons">
+      <a href="projects.html">View Projects</a>
+      <a href="about.html">About Me</a>
+      <a href="mailto:ngobeni96@gmail.com">Contact Me</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Moira Nsovo Ngobeni | All Rights Reserved
+  </footer>
+</body>
+</html>
